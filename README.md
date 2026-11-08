@@ -4,14 +4,23 @@ Universal design system + visual QA plugin for Claude Code. Works for native And
 
 ## Install
 
-From a folder (e.g. unzipped from an archive), in Claude Code:
+From GitHub (private repo — you need collaborator access), in Claude Code:
+
+```
+/plugin marketplace add xpayder/design-system-kit
+/plugin install design-system-kit@design-system-kit
+```
+
+Updates later: `/plugin marketplace update design-system-kit`.
+
+From a folder (e.g. unzipped from an archive):
 
 ```
 /plugin marketplace add /path/to/design-system-kit
 /plugin install design-system-kit@design-system-kit
 ```
 
-From a GitHub repository holding this folder at its root: `/plugin marketplace add <owner>/<repo>`, then the same install line. Run `/reload-plugins` (or restart) afterwards.
+Run `/reload-plugins` (or restart) afterwards.
 
 Requires `python3` for the locale-parity hook. Android work needs `adb`; web screenshots use the in-app browser or `npx playwright`.
 
