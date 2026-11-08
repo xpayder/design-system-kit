@@ -1,0 +1,23 @@
+{
+  "name": "design-system-kit",
+  "description": "Universal design system and visual QA for any product UI: Android (Compose + Haze 2.1), iOS (SwiftUI + Liquid Glass) and web (CSS/React/Tailwind). Owner standards, project profile (/ds-init), anti-slop taste rules, tokens, glass, accessibility, real-vision review (/ds-visual-audit), auto-detected verify gate (/ds-verify), locale-parity hook for Android XML and JSON messages.",
+  "version": "1.0.0",
+  "author": {
+    "name": "xpayder"
+  },
+  "keywords": [
+    "design-system",
+    "ui",
+    "qa",
+    "android",
+    "compose",
+    "ios",
+    "swiftui",
+    "web",
+    "tailwind",
+    "liquid-glass",
+    "accessibility",
+    "i18n"
+  ],
+  "license": "MIT"
+}

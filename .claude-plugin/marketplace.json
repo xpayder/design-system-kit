@@ -1,0 +1,14 @@
+{
+  "name": "design-system-kit",
+  "owner": { "name": "xpayder" },
+  "metadata": { "description": "Universal design system + visual QA plugin for Android, iOS and web projects." },
+  "plugins": [
+    {
+      "name": "design-system-kit",
+      "source": "./",
+      "description": "Universal design system + visual QA for Android, iOS and web: owner standards, project profile, tokens, glass, accessibility, /ds-init, /ds-verify, /ds-visual-audit, locale-parity hook.",
+      "version": "1.0.0",
+      "license": "MIT"
+    }
+  ]
+}
